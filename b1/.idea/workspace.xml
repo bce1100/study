@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58cd93d6-8999-475f-b269-c81e3649d380" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ljj/FileScanner.java" afterPath="$PROJECT_DIR$/src/com/ljj/io/FileScanner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ljj/Main.java" afterPath="$PROJECT_DIR$/src/com/ljj/io/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ljj/MultiWriteFile.java" afterPath="$PROJECT_DIR$/src/com/ljj/io/MultiWriteFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ljj/Stream.java" afterPath="$PROJECT_DIR$/src/com/ljj/io/Stream.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -685,12 +680,20 @@
       <workItem from="1533284216340" duration="5113000" />
       <workItem from="1533522524740" duration="7289000" />
       <workItem from="1533606647031" duration="981000" />
-      <workItem from="1533615450310" duration="344000" />
+      <workItem from="1533615450310" duration="416000" />
     </task>
+    <task id="LOCAL-00001" summary="IO和文件练习">
+      <created>1533615824494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533615824494</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26780000" />
+    <option name="totallyTimeSpent" value="26852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -732,6 +735,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IO和文件练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO和文件练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
