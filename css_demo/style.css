@@ -1,0 +1,71 @@
+.kuang{
+    width: 50px;
+    height:50px;
+    border:3px solid yellow;
+    background-color: white;
+}
+
+.gou{
+    width: 25px;
+    height:40px;
+    border-bottom:2px solid yellow;
+    border-right:2px solid yellow;
+    transform: rotate(45deg) translateX(15px) translateY(-5px);
+}
+
+.container{
+    padding:0 300px 0 200px;
+}
+
+.main{
+    position: relative;
+    float: left;
+    width:100%;
+    background-color: burlywood;
+}
+
+.left{
+    left:-200px;
+    position: relative;
+    margin-left: -100%;
+    float: left;
+    width:200px;
+    background-color: rebeccapurple;
+}
+
+.right{
+    right:-300px;
+    position: relative;
+    margin-left:-300px;
+    float: left;
+    width:300px;
+    background-color: coral;
+}
+
+.cube{
+    position: absolute;
+    margin-top: 100px;
+    width: 100px;
+    height:80px;
+    border:10px solid black;
+    background-color: white;
+}
+
+.cube2{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:55px;
+    width:100px;
+    height:130px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.tri{
+    position: absolute;
+    width:0;
+    height:0;
+    border-top: 50px solid transparent;
+    border-left:100px solid black;
+    border-bottom:50px solid transparent;
+}

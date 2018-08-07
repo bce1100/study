@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+.swiper{
+    margin:0px auto;
+    width:400px;
+    height:200px;
+    position:relative;
+    overflow: hidden;
+}
+
+.swiper ul{
+    width:2000px;
+    height:200px;
+}
+
+.swiper li{
+    width:400px;
+    height: 200px;
+    float: left;
+}
