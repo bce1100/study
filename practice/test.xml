@@ -2,19 +2,20 @@
 <CATALOG>
 <CD>
 <TITLE>Empire Burlesque</TITLE>
+<TITLE>Empire</TITLE>
 <ARTIST>Bob Dylan</ARTIST>
 <COUNTRY>USA</COUNTRY>
 <COMPANY>Columbia</COMPANY>
 <PRICE>10.90</PRICE>
 <YEAR>1985</YEAR>
-<!--<ADDITIONAL>
+<ADDITIONAL>
     <VCD>
         <DESC>this is additional</DESC>
     </VCD>
-</ADDITIONAL>-->
+</ADDITIONAL>
 </CD>
 <CD>
-<TITLE>Maggie May</TITLE>
+<TITLE>IONAie May</TITLE>
 <ARTIST>Rod Stewart</ARTIST>
 <COUNTRY>UK</COUNTRY>
 <COMPANY>Pickwick</COMPANY>
@@ -52,5 +53,5 @@
 <COMPANY>EMI</COMPANY>
 <PRICE>8.20</PRICE>
 <YEAR>1987</YEAR>
-</DVD>	
+</DVD>
 </CATALOG>
