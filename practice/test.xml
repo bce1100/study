@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+<CD>
+<TITLE>Empire Burlesque</TITLE>
+<ARTIST>Bob Dylan</ARTIST>
+<COUNTRY>USA</COUNTRY>
+<COMPANY>Columbia</COMPANY>
+<PRICE>10.90</PRICE>
+<YEAR>1985</YEAR>
+<!--<ADDITIONAL>
+    <VCD>
+        <DESC>this is additional</DESC>
+    </VCD>
+</ADDITIONAL>-->
+</CD>
+<CD>
+<TITLE>Maggie May</TITLE>
+<ARTIST>Rod Stewart</ARTIST>
+<COUNTRY>UK</COUNTRY>
+<COMPANY>Pickwick</COMPANY>
+<PRICE>8.50</PRICE>
+<YEAR>1990</YEAR>
+</CD>
+<CD>
+<TITLE>Romanza</TITLE>
+<ARTIST>Andrea Bocelli</ARTIST>
+<COUNTRY>EU</COUNTRY>
+<COMPANY>Polydor</COMPANY>
+<PRICE>10.80</PRICE>
+<YEAR>1996</YEAR>
+</CD>
+<CD>
+<TITLE>When a man loves a woman</TITLE>
+<ARTIST>Percy Sledge</ARTIST>
+<COUNTRY>USA</COUNTRY>
+<COMPANY>Atlantic</COMPANY>
+<PRICE>8.70</PRICE>
+<YEAR>1987</YEAR>
+</CD>
+<DVD id="002">
+<TITLE>Black angel</TITLE>
+<ARTIST>Savage Rose</ARTIST>
+<COUNTRY>EU</COUNTRY>
+<COMPANY>Mega</COMPANY>
+<PRICE>10.90</PRICE>
+<YEAR>1995</YEAR>
+</DVD>
+<DVD id="001">
+<TITLE>Unchain my heart</TITLE>
+<ARTIST>Joe Cocker</ARTIST>
+<COUNTRY>USA</COUNTRY>
+<COMPANY>EMI</COMPANY>
+<PRICE>8.20</PRICE>
+<YEAR>1987</YEAR>
+</DVD>	
+</CATALOG>
