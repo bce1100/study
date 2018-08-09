@@ -34,7 +34,7 @@ public class Convert {
             document = reader.read(file);
             Element root = document.getRootElement();
             JSONObject json = new JSONObject();
-            json.put(root.getName(),iterateElement2(root));
+            json.put(root.getName(),iterateElement(root));
             System.out.println(json.toString());
         } catch (DocumentException e) {
             e.printStackTrace();
@@ -70,31 +70,4 @@ public class Convert {
         return jMap;
     }
 
-    private static Map iterateElement2(Element element) {
-        List eList = element.elements();
-        Element child;
-        Map jMap = new HashMap<>(16);
-        List list;
-        for (int i = 0; i < eList.size(); i++) {
-            list = new LinkedList();
-            child = (Element) eList.get(i);
-            if ("".equals(child.getTextTrim())) {
-                if (child.elements()==null||child.elements().size()==0) {
-                    continue;
-                }
-                if (jMap.containsKey(child.getName())) {
-                    list = (List)jMap.get(child.getName());
-                }
-                list.add(iterateElement(child));
-                jMap.put(child.getName(), list);
-            } else {
-                String text = child.getName();
-                if (jMap.containsKey(child.getName())) {
-                    text =(String)jMap.get(child.getName());
-                }
-                jMap.put(child.getName(), text);
-            }
-        }
-        return jMap;
-    }
 }
