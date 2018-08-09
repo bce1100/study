@@ -30,10 +30,11 @@ public class Convert {
         SAXReader reader = new SAXReader();
         File file = new File(fileName);
         Document document;
+        JSONObject json;
         try {
             document = reader.read(file);
             Element root = document.getRootElement();
-            JSONObject json = new JSONObject();
+            json = new JSONObject();
             json.put(root.getName(),iterateElement(root));
             System.out.println(json.toString());
         } catch (DocumentException e) {
