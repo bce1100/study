@@ -12,10 +12,10 @@ import java.util.Map;
 public class MyReflect {
     public static void main(String[] args) {
         Son son = new Son();
-        Map fieldMap = getField(son, "defaultField");
+        Map fieldMap = getField(son, "publicField");
         if (fieldMap.size() > 0 && fieldMap != null) {
             for (Object s : fieldMap.keySet()) {
-                System.out.println(s.toString() + ":" + fieldMap.get(s.toString()));
+                System.out.println(s.toString() + "  value=>" + fieldMap.get(s.toString()));
             }
         } else {
             System.out.println("冇哩个字段喔");
@@ -30,6 +30,14 @@ public class MyReflect {
     }
 
     public static void iterateFiled(Object obj, Class cla, String fieldName, Map<String, String> fieldMap) {
+        printFiled(obj,cla,fieldName,fieldMap);
+        if (cla.getSuperclass() != null) {
+            iterateFiled(obj, cla.getSuperclass(), fieldName, fieldMap);
+        }
+    }
+
+
+    public static void printFiled(Object obj, Class cla, String fieldName, Map<String, String> fieldMap){
         Field[] fields = cla.getDeclaredFields();
         for (Field field : fields) {
             if (fieldName.equals(field.getName())) {
@@ -43,9 +51,6 @@ public class MyReflect {
                     e.printStackTrace();
                 }
             }
-        }
-        if (cla.getSuperclass() != null) {
-            iterateFiled(obj, cla.getSuperclass(), fieldName, fieldMap);
         }
     }
 }
