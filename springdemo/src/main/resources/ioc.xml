@@ -10,4 +10,11 @@
         <!--默认scope singleton-->
         <constructor-arg index="0" value="hand"></constructor-arg>
     </bean>
+
+    <bean name="datasource" class="org.springframework.jdbc.datasource.SingleConnectionDataSource">
+        <constructor-arg index="0" value="jdbc:mysql://localhost:3306"/>
+        <constructor-arg index="1" value="root"/>
+        <constructor-arg index="2" value="root"/>
+        <constructor-arg index="3" value="true"/>
+    </bean>
 </beans>

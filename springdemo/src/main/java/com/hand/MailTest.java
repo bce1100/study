@@ -1,8 +1,6 @@
 package com.hand;
 
 import com.hand.event.MailEvent1;
-import com.hand.handler.MailEventHandler;
-import com.sun.org.apache.xpath.internal.SourceTree;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
