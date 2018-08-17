@@ -3,18 +3,18 @@
         PUBLIC "-//mybatis.org//DTDConfig 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <properties resource="jdbc.properties"></properties>
+<!--    <properties resource="jdbc.properties"></properties>
     <settings>
         <setting name="lazyLoadingEnabled" value="true"/>
         <setting name="aggressiveLazyLoading" value="true"></setting>
-    </settings>
+    </settings>-->
 <!--    <settings>
          <setting name="autoMappingBehavior" value="NONE"/>
      </settings>
     <typeAliases>
         <package name="cn.alexander.com.ljj.entity"></package>
     </typeAliases>-->
-    <environments default="development">
+<!--    <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
@@ -24,9 +24,8 @@
                 <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
-    </environments>
+    </environments>-->
     <mappers>
-        <!--  <mapper resource="cn/alexander/com.ljj.dao/IStudentDAO.xml"/>-->
-        <mapper resource="UserMapper.xml"></mapper>
+        <mapper resource="mapper/UserMapper.xml"></mapper>
     </mappers>
 </configuration>
