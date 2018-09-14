@@ -28,6 +28,13 @@ public class Msg {
 		result.setMsg("处理失败");
 		return result;
 	}
+
+	public static Msg fail(String msg,int code){
+		Msg result = new Msg();
+		result.setCode(code);
+		result.setMsg(msg);
+		return result;
+	}
 	
 	public Msg add(String key,Object value){
 		this.getExtend().put(key, value);

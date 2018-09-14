@@ -6,10 +6,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.ljj.mapper.UserMapper">
-    <select id="find"  resultType="com.ljj.dto.User">
+    <select id="checkUser"  resultType="com.ljj.dto.User">
         select id,username,password from user WHERE username = #{username} and password = #{password}
     </select>
 
+    <select id="isExists"  resultType="int">
+        select count(*) from user where username = #{username}
+    </select>
     <!--<update id="plus">-->
         <!--update Access set count = count+1 WHERE  api_name = "add"-->
     <!--</update>-->

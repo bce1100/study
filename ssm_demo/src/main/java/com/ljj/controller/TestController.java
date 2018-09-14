@@ -17,23 +17,23 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/user")
 public class TestController {
 
-    @RequestMapping("/hello")
-    public String toViews(){
-        return "hello";
-    }
-
-    @RequestMapping("/index")
-    public String toIndex(){
-        return "redirect:/index.jsp";
-    }
-
-    @RequestMapping("/addGoods")
-    public ModelAndView addGoods(Goods goods){
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject(goods);
-        modelAndView.setViewName("redirect:/hello");
-        return modelAndView;
-    }
+//    @RequestMapping("/hello")
+//    public String toViews(){
+//        return "hello";
+//    }
+//
+//    @RequestMapping("/index")
+//    public String toIndex(){
+//        return "redirect:/index.jsp";
+//    }
+//
+//    @RequestMapping("/addGoods")
+//    public ModelAndView addGoods(Goods goods){
+//        ModelAndView modelAndView = new ModelAndView();
+//        modelAndView.addObject(goods);
+//        modelAndView.setViewName("redirect:/hello");
+//        return modelAndView;
+//    }
 
 
 }

@@ -7,5 +7,17 @@ import com.ljj.dto.User;
  * @date 2018/8/22.
  */
 public interface UserMapper {
-    public User find(User user);
+    /**
+     * 检查用户登陆
+     * @param user
+     * @return
+     */
+    public User checkUser(User user);
+
+    /**
+     * 根据用户名检查用户是否存在
+     * @param username
+     * @return
+     */
+    public int isExists(String username);
 }
