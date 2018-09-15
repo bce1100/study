@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58cd93d6-8999-475f-b269-c81e3649d380" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ljj/practices/ComperhensivePractice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ljj/practices/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ljj/practices/Trader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ljj/practices/Transaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cglibdemo/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cglibdemo/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cglibdemo/.idea/libraries/Maven__cglib_cglib_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cglibdemo/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cglibdemo/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cglibdemo/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cglibdemo/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm_demo/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/util/Md5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/webapp/WEB-INF/views/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/webapp/login.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springmvc_demo/src/main/webapp/WEB-INF/views/hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/webapp/login.jsp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springmvc_demo/src/main/webapp/login.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/controller/LoginController.java" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/controller/TestController.java" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/interceptor/LoginInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/mapper/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/service/UserService.java" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/util/Msg.java" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/java/com/ljj/util/Msg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/resources/com.ljj.mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/resources/com.ljj.mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/resources/mvc.xml" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/resources/mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm_demo/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../ssm_demo/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/ljj/practices/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2097#2098#0" expanded="true" />
@@ -65,8 +40,8 @@
       <file leaf-file-name="ComperhensivePractice.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ljj/practices/ComperhensivePractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -246,7 +221,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
   </component>
@@ -755,7 +730,7 @@
       <workItem from="1533696606875" duration="533000" />
       <workItem from="1533786396480" duration="2638000" />
       <workItem from="1534403007804" duration="7901000" />
-      <workItem from="1536905630877" duration="4606000" />
+      <workItem from="1536905630877" duration="4732000" />
     </task>
     <task id="LOCAL-00001" summary="IO和文件练习">
       <created>1533615824494</created>
@@ -806,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534418328590</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="java8 lambda learning">
+      <created>1536911916606</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536911916606</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52731000" />
+    <option name="totallyTimeSpent" value="52857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -835,7 +817,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -898,7 +880,8 @@
     <MESSAGE value="装饰者模式" />
     <MESSAGE value="适配器模式" />
     <MESSAGE value="proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
+    <MESSAGE value="java8 lambda learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="java8 lambda learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1249,7 +1232,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/ljj/practices/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2097#2098#0" expanded="true" />
@@ -1260,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ljj/practices/ComperhensivePractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
       </provider>
